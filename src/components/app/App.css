@@ -1,0 +1,138 @@
+.сonverter {
+  padding: 40px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.сonverter h1 {
+  font-size: 34px;
+  color: green;
+}
+
+.сonverter__message {
+  font-size: 24px;
+}
+
+.сonverter__currencies-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.сonverter__currencies-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border: 1px solid green;
+  border-radius: 5px;
+  background-color: rgb(230, 249, 230);
+  color: green;
+  font-size: 24px;
+}
+
+.сonverter__currencies-item:hover {
+  cursor: pointer;
+  background-color: rgb(184, 229, 184);
+}
+
+.сonverter__currencies-item.is-active {
+  border: 1px solid green;
+  background-color: rgb(184, 229, 184);
+}
+
+.сonverter__fieldset {
+  position: relative;
+  border-radius: 10px;
+  padding: 30px;
+  border: 2px solid green;
+}
+
+.сonverter__fieldset legend {
+  font-size: 32px;
+  color: green;
+}
+
+.сonverter__item-wrap {
+  margin-top: 10px;
+}
+
+.сonverter__card-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.сonverter__card-item {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  padding-bottom: 20px;
+  border-bottom: 1px solid green;
+}
+
+.сonverter__card-label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+  flex-wrap: wrap;
+}
+
+.сonverter__message {
+  font-weight: 600;
+}
+
+.сonverter__card-input {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid green;
+  font-size: 20px;
+}
+
+.сonverter__card-btn-del {
+  border-radius: 5px;
+  padding: 4px;
+  border: 1px solid #008000;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  background-image: url('../../../public/images/close-modal.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+  border-radius: 3px;
+}
+
+.сonverter__card-btn-del:hover {
+  background-color: rgb(184, 229, 184);
+}
+
+.сonverter__currency-type {
+  margin-left: 5px;
+  color: #008000;
+  font-size: 20px;
+  font-weight: bold;
+}
