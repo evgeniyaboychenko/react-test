@@ -36,7 +36,7 @@ class CurrencyStore {
 
     if (this.selectedCurrencies.length === 2) {
       const selectedCurrencies = this.selectedCurrencies;
-      this.rootStore.converterStore.addCard(
+      this.rootStore.converterStore.addConverter(
         selectedCurrencies[0].type,
         selectedCurrencies[1].type
       );

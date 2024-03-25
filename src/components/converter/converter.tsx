@@ -17,10 +17,13 @@ const Converter = observer(() => {
                 key={item.id}
                 id={item.id}
                 rate={item.rate}
+                isLoading={item.isLoading}
+                error = {item.error}
                 firstСurrency={item.firstСurrency}
                 secondСurrency={item.secondСurrency}
                 onRemoveButtonClick = {rootStore.converterStore.onRemoveButtonClick}
                 onInputChange= {item.onInputChange}
+                loadCurrencyRate = {item.loadCurrencyRate}
               />
             ))}
         </ul>
