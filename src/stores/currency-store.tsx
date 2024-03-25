@@ -33,7 +33,6 @@ class CurrencyStore {
     this.currencyCards[currentCard].isActive =
       !this.currencyCards[currentCard].isActive;
 
-
     if (this.selectedCurrencies.length === 2) {
       const selectedCurrencies = this.selectedCurrencies;
       this.rootStore.converterStore.addConverter(

@@ -9,11 +9,15 @@ interface Props {
 }
 
 const Сurrency = observer((props: Props) => {
-  const {id, type, isActive, onCurrencyClick} = props;
-  console.log( isActive);
-
+  const { id, type, isActive, onCurrencyClick } = props;
   return (
-    <li onClick={()=> onCurrencyClick(id)} className={`сonverter__currencies-item ${isActive ? "is-active" : ""}`}> {type} </li>
+    <li
+      onClick={() => onCurrencyClick(id)}
+      className={`сonverter__currencies-item ${isActive ? "is-active" : ""}`}
+    >
+      {" "}
+      {type}{" "}
+    </li>
   );
 });
 
