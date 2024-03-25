@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-test/static/css/main.60b6d818.css",
-    "main.js": "/react-test/static/js/main.83286c61.js",
+    "main.js": "/react-test/static/js/main.41faa642.js",
     "index.html": "/react-test/index.html",
     "static/media/close-modal.svg": "/react-test/static/media/close-modal.1019064555ad24152f16.svg",
     "main.60b6d818.css.map": "/react-test/static/css/main.60b6d818.css.map",
-    "main.83286c61.js.map": "/react-test/static/js/main.83286c61.js.map"
+    "main.41faa642.js.map": "/react-test/static/js/main.41faa642.js.map"
   },
   "entrypoints": [
     "static/css/main.60b6d818.css",
-    "static/js/main.83286c61.js"
+    "static/js/main.41faa642.js"
   ]
 }
